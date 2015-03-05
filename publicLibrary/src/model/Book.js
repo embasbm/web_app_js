@@ -3,3 +3,6 @@ function Book(slots){
   this.title = slots.title;
   this.year = slots.year;
 };
+
+Book.instances = {};
+
